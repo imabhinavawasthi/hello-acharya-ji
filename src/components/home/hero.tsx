@@ -83,7 +83,7 @@ const HomeHero: FC = () => {
                       backgroundColor: 'unset',
                     }}
                   >
-                    Improve{' '}
+                    Face Reading{' '}
                     <Box
                       sx={{
                         position: 'absolute',
@@ -97,7 +97,7 @@ const HomeHero: FC = () => {
                       <img src="/images/headline-curve.svg" alt="Headline curve" />
                     </Box>
                   </Typography>
-                  your{' '}
+                  Your{' '}
                   <Typography
                     component="span"
                     sx={{
@@ -113,7 +113,7 @@ const HomeHero: FC = () => {
                       },
                     }}
                   >
-                    Skill
+                    Face
                     <svg version="1.1" viewBox="0 0 3183 3072">
                       <g id="Layer_x0020_1">
                         <path
@@ -132,13 +132,13 @@ const HomeHero: FC = () => {
                     </svg>
                   </Typography>{' '}
                   <br />
-                  with Different Way
+                  Tells a Story. We Help You Read It.
                 </Typography>
               </Box>
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "Let's take an online course to improve your skills in a different way, you can set your own study time according to your learning speed. So you san study comfortable and absorb tge material easily."
+                    "Every feature of your face—your eyes, forehead, jawline, and smile—holds insights shaped by cosmic energy and ancient wisdom. At Hello Acharya Ji, we blend the science of astrology with the art of face reading to reveal the deeper story of who you are, where you're headed, and what the universe has in store for you."
                   }
                 </Typography>
               </Box>
@@ -194,21 +194,21 @@ const HomeHero: FC = () => {
                   component="h6"
                   sx={{ color: 'secondary.main', fontSize: '1.1rem', fontWeight: 700, mb: 0.5 }}
                 >
-                  Certificate
+                  Acharya Ankit Shukla
                 </Typography>
                 <Typography variant="subtitle1" sx={{ color: 'text.secondary', lineHeight: 1.3 }}>
-                  There are certificates for all courses.
+                  Famous Face Reader
                 </Typography>
               </Box>
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+              <Image src="/images/ankit.png" width={775} height={787} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>
 
         {/* Experience */}
-        <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
+        {/* <Box sx={{ boxShadow: 2, py: 4, px: 7, borderRadius: 4 }}>
           <Grid container spacing={2}>
             {exps.map((item) => (
               <Grid key={item.value} item xs={12} md={4}>
@@ -216,7 +216,7 @@ const HomeHero: FC = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Box> */}
       </Container>
     </Box>
   )
